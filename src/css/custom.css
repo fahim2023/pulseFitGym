@@ -11859,6 +11859,12 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+a.btn {
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
+
 body {
   color: #2c3e50;
 }
@@ -11921,8 +11927,11 @@ header .container-fluid > *, header .container-sm > *, header .container-md > *,
   border: none;
   box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.15);
 }
-#classes a.btn {
-  color: white;
-  font-weight: 500;
-  letter-spacing: 1.2px;
+
+#min-gallery img {
+  object-fit: cover;
+  transition: all 0.3s;
+}
+#min-gallery img:hover {
+  transform: scale(1.05);
 }
