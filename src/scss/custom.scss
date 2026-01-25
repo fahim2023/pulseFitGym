@@ -1,20 +1,22 @@
 $primary: #ff6b35;
 $secondary: #2c3e50;
-$light: #b8c6d5;
+$light: #f8f9fa;
 $dark: #1a1a1a;
-// --brand-primary-dark: #e5511d;
-$theme-colors: (
-  "primary": $primary,
-  "secondary": $secondary,
-  "light": $light,
-  "dark": $dark,
-  "primary-dark": #e5511d,
+$brand-primary-dark: #e5511d;
+@import "../../node_modules/bootstrap/scss/bootstrap";
+$theme-colors: map-merge(
+  $theme-colors,
+  (
+    "primary": $primary,
+    "secondary": $secondary,
+    "light": $light,
+    "dark": $dark,
+    "primary-dark": #e5511d,
+  )
 );
 
-@import "../../node_modules/bootstrap/scss/bootstrap";
-
 body {
-  color: white;
+  color: $secondary;
 }
 
 /* Navbar */
@@ -71,5 +73,18 @@ header .container-fluid {
   & > * {
     position: relative;
     z-index: 2;
+  }
+}
+// classes
+#classes {
+  background-color: $light;
+  .card {
+    border: none;
+    box-shadow: 5px 10px 12px rgba(0, 0, 0, 0.15);
+  }
+  a.btn {
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1.2px;
   }
 }
