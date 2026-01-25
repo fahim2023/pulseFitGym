@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "sass:watch": "sass --watch src/scss/custom.scss:src/css/custom.css --style=compressed",
-    "sass:build": "sass src/scss/custom.scss:src/css/custom.css --style=compressed"
+    "sass:build": "sass src/scss/custom.scss:src/css/custom.css"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/fahim2023/pulseFitGym#readme",
   "devDependencies": {
     "sass": "^1.97.3"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
   }
 }

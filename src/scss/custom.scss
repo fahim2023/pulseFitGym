@@ -1,0 +1,53 @@
+$primary: #ff6b35;
+$secondary: #2c3e50;
+$light: #b8c6d5;
+$dark: #1a1a1a;
+// --brand-primary-dark: #e5511d;
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light,
+  "dark": $dark,
+  "primary-dark": #e5511d,
+);
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  background-color: $dark;
+
+  /* Brand stays white always */
+  .navbar-brand,
+  .navbar-brand:hover,
+  .navbar-brand:focus {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* Brand icon rotated */
+  .navbar-brand i {
+    transform: rotate(45deg);
+    display: inline-block;
+    color: #e5511d;
+  }
+
+  /* Nav links */
+  .nav-link {
+    color: #fff;
+  }
+
+  /* Only nav links change on hover (not the brand) */
+  .nav-link:active,
+  .nav-link:hover,
+  .nav-link:focus {
+    color: $primary;
+  }
+}
