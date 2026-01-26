@@ -25,11 +25,10 @@ a.btn {
 #about-preview {
   background-color: $light;
 }
-// *******************************************
-
 body {
   color: $secondary;
 }
+// *******************************************
 
 /* Navbar */
 .navbar {
@@ -134,4 +133,20 @@ header .container-fluid {
 }
 .stats-item {
   color: white;
+}
+// footer
+footer {
+  address {
+    color: $light;
+  }
+}
+.footer-link {
+  color: $light;
+  text-decoration: none;
+  &:hover {
+    color: $primary;
+  }
+}
+footer li {
+  margin-bottom: 0.5rem;
 }
