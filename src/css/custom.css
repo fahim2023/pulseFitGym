@@ -11865,7 +11865,7 @@ a.btn {
   letter-spacing: 1.2px;
 }
 
-#about {
+#about-preview {
   background-color: #f8f9fa;
 }
 
@@ -11940,15 +11940,15 @@ header .container-fluid > *, header .container-sm > *, header .container-md > *,
   transform: scale(1.05);
 }
 
-#about .card {
+#about-preview .card {
   border: none;
   background-color: #f8f9fa;
   text-align: center;
 }
-#about .card h3, #about .card .h3 {
+#about-preview .card h3, #about-preview .card .h3 {
   font-size: 1.5rem;
 }
-#about .icon-circle {
+#about-preview .icon-circle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -11958,7 +11958,7 @@ header .container-fluid > *, header .container-sm > *, header .container-md > *,
   align-items: center;
   align-self: center;
 }
-#about .icon-circle i {
+#about-preview .icon-circle i {
   color: #fff;
   font-size: 1.8rem;
   line-height: 1;
