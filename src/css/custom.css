@@ -11865,6 +11865,10 @@ a.btn {
   letter-spacing: 1.2px;
 }
 
+#about {
+  background-color: #f8f9fa;
+}
+
 body {
   color: #2c3e50;
 }
@@ -11934,4 +11938,32 @@ header .container-fluid > *, header .container-sm > *, header .container-md > *,
 }
 #min-gallery img:hover {
   transform: scale(1.05);
+}
+
+#about .card {
+  border: none;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+#about .card h3, #about .card .h3 {
+  font-size: 1.5rem;
+}
+#about .icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff6b35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+#about .icon-circle i {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.stats-item {
+  color: white;
 }

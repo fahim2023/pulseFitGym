@@ -14,12 +14,18 @@ $theme-colors: map-merge(
     "primary-dark": #e5511d,
   )
 );
-// global styles
+//********** global styles**********************
+// button style
 a.btn {
   color: white;
   font-weight: 500;
   letter-spacing: 1.2px;
 }
+// bg-light
+#about {
+  background-color: $light;
+}
+// *******************************************
 
 body {
   color: $secondary;
@@ -99,4 +105,33 @@ header .container-fluid {
       transform: scale(1.05);
     }
   }
+}
+// about
+#about {
+  .card {
+    border: none;
+    background-color: $light;
+    text-align: center;
+    h3 {
+      font-size: 1.5rem;
+    }
+  }
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: $primary; // primary orange
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    i {
+      color: #fff;
+      font-size: 1.8rem;
+      line-height: 1;
+    }
+  }
+}
+.stats-item {
+  color: white;
 }
