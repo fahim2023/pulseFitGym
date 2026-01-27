@@ -197,3 +197,22 @@ footer .social-btn:focus {
 footer .social-btn i {
   font-size: 1.4rem;
 }
+
+/* our trainers section - about.html*/
+#our-trainers .card-img-top {
+  width: 100%;
+  height: 320px;
+  display: block;
+  object-fit: cover;
+}
+#our-trainers .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#our-trainers span.badge {
+  background-color: var(--brand-primary);
+}
+#our-trainers p.lead {
+  color:;
+}
