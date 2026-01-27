@@ -111,43 +111,51 @@ header .container-fluid > * {
   display: block;
 }
 /* min-gallery  */
+/* images are different sizes so gave the container a fixed heigt then 100% for the image to fill container */
+.gallery-item {
+  height: 220px;
+}
 #min-gallery img {
-  height: 250px;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
   transition: all 0.3s;
 }
 .gallery-item:hover img {
   transform: scale(1.05);
 }
-/* about
- #about-preview {
-   .card {
-     border: none;
-     background-color: var(--brand-light);
-     text-align: center;
-     h3 {
-       font-size: 1.5rem;
-     }
-   }
-   .icon-circle {
-     width: 60px;
-     height: 60px;
-     border-radius: 50%;
-     background-color: $primary; // primary orange
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     align-self: center;
-     i {
-       color: #fff;
-       font-size: 1.8rem;
-       line-height: 1;
-     }
-   }
- }
+/* about */
+#about-preview .card {
+  border: none;
+  background-color: var(--brand-light);
+  text-align: center;
+}
+#about-preview .card h3 {
+  font-size: 1.5rem;
+}
+#about-preview .card .icon-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: var(--brand-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+#about-preview .card .icon-circle i {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 1;
+}
+#about-preview .stats-bar {
+  background-color: var(--brand-primary);
+}
+
+/* /*
  .stats-item {
    color: white;
- }
+ } 
  // footer
  footer {
    address {
