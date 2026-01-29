@@ -10,7 +10,6 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-
     <link rel="stylesheet" href="src/css/custom.css" />
     <script
       src="https://kit.fontawesome.com/4555a50a11.js"
@@ -63,29 +62,23 @@
     <!-- header -->
     <header>
       <div
-        class="container-fluid d-flex align-items-center justify-content-center"
+        class="container-fluid d-flex align-items-center justify-content-start"
       >
-        <div class="row">
-          <div class="col-12 offset-md-2 col-md-8 text-center text-white">
-            <h1 class="display-3 fw-bold mb-4">
-              Transform Your Body, <br />
-              Transform Your Life
-            </h1>
-            <p class="lead mb-5">
-              Join our community of fitness enthusiasts and achieve your health
-              goals, with state of the art equipment, expert trainers, and
-              motivating group classes.
-            </p>
-            <div class="d-flex gap-3 justify-content-center">
-              <a href="#" class="btn btn-primary px-4 py-3">Get Started</a>
-              <a href="#" class="btn btn-outline-light px-4 py-3">Learn More</a>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-8 text-start text-white">
+              <h1 class="display-3 fw-bold mb-4">About PulseFit Gym</h1>
+              <p class="lead mb-5">
+                More than just a gym - we're a community dedicated to
+                transforming lives through fitness, wellness, and support.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </header>
     <main>
-      <section id="classes-overview">
+      <section id="classes">
         <div class="container classes py-5">
           <h2 class="mb-3 text-center display-4 fw-bold">Featured Classes</h2>
           <p class="lead text-center mb-5">
@@ -192,169 +185,110 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="d-flex justify-content-center mt-5 mb-4">
-            <a href="" class="btn btn-primary">View all Classes</a>
-          </div>
-        </div>
-      </section>
-      <section id="min-gallery">
-        <div class="container classes py-5">
-          <h2 class="mb-3 text-center display-4 fw-bold">Our Facilities</h2>
-          <p class="lead text-center mb-5">
-            Take a look at our modern, fully-equipped facility where fitness
-            meets fun.
-          </p>
-          <div class="row gx-3">
-            <!--  adds gutters/spacing -->
             <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-1.webp"
-                  alt="Facility 1"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-2.webp"
-                  alt="Facility 2"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-3.webp"
-                  alt="Facility 3"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-4.webp"
-                  alt="Facility 4"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-5.webp"
-                  alt="Facility 5"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-6.webp"
-                  alt="Facility 6"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-          </div>
-          <div class="d-flex justify-content-center mt-5 mb-4">
-            <a href="" class="btn btn-primary">View Full Gallery</a>
-          </div>
-        </div>
-      </section>
-      <section id="about-preview">
-        <div class="container classes py-5">
-          <h2 class="mb-3 text-center display-4 fw-bold">
-            Why Choose PulseFit?
-          </h2>
-          <p class="lead text-center mb-5">
-            We're more than just a gym - we're a community committed to helping
-            you achieve your fitness goals.
-          </p>
-          <div class="row">
-            <div class="col-12 col-md-6 col-lg-3">
               <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-dumbbell card-img-top"></i>
-                </div>
+                <img
+                  src="./src/assets/images/home-class-3.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h3>Modern Equipment</h3>
-                  <p class="card-text">
-                    State-of-the-art fitness equipment regularly maintained and
-                    updated.
+                  <p>
+                    <span class="badge text-bg-success">All Levels</span>
                   </p>
+                  <h5 class="card-title">HIIT Cardio</h5>
+                  <p class="card-text">
+                    Burn calories and boost metabolism with high-intensity
+                    interval training.
+                  </p>
+                  <ul class="class-info list-unstyled d-flex flex-column gap-3">
+                    <li class="d-flex align-items-center gap-2">
+                      <i class="fa-regular fa-clock"></i><span>40 mins</span>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-users"></i><span>30 people</span>
+                    </li>
+                    <li class="d-flex align-items-baseline gap-2">
+                      <i class="fa-regular fa-calendar-days"></i>
+                      Tues 7:00 AM <br />
+                      Thurs 6:00 PM <br />
+                      Sun :00 AM
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-users card-img-top"></i>
-                </div>
+                <img
+                  src="./src/assets/images/home-class-3.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h3>Expert Trainers</h3>
-                  <p class="card-text">
-                    Certified fitness professionals dedicated to helping you
-                    reach your goals.
+                  <p>
+                    <span class="badge text-bg-success">All Levels</span>
                   </p>
+                  <h5 class="card-title">HIIT Cardio</h5>
+                  <p class="card-text">
+                    Burn calories and boost metabolism with high-intensity
+                    interval training.
+                  </p>
+                  <ul class="class-info list-unstyled d-flex flex-column gap-3">
+                    <li class="d-flex align-items-center gap-2">
+                      <i class="fa-regular fa-clock"></i><span>40 mins</span>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-users"></i><span>30 people</span>
+                    </li>
+                    <li class="d-flex align-items-baseline gap-2">
+                      <i class="fa-regular fa-calendar-days"></i>
+                      Tues 7:00 AM <br />
+                      Thurs 6:00 PM <br />
+                      Sun :00 AM
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-            <div class="col-12 col-md-6 col-lg-3">
+            <div class="col-12 col-md-6 col-lg-4">
               <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-award card-img-top"></i>
-                </div>
+                <img
+                  src="./src/assets/images/class-6.webp"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
-                  <h3>Proven Results</h3>
-                  <p class="card-text">
-                    Join thousands of members who have transformed their lives
-                    with us.
+                  <p>
+                    <span class="badge text-bg-success">Intermediate</span>
                   </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-heart card-img-top"></i>
-                </div>
-                <div class="card-body">
-                  <h3>Community Focus</h3>
+                  <h5 class="card-title">Boxing Bootcamp</h5>
                   <p class="card-text">
-                    A welcoming environment where everyone supports each other.
+                    Learn boxing techniques while getting an intense full-body
+                    workout. Includes bag work and conditioning.
                   </p>
+                  <ul class="class-info list-unstyled d-flex flex-column gap-3">
+                    <li class="d-flex align-items-center gap-2">
+                      <i class="fa-regular fa-clock"></i><span>60 mins</span>
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                      <i class="fa-solid fa-users"></i><span>20 people</span>
+                    </li>
+                    <li class="d-flex align-items-baseline gap-2">
+                      <i class="fa-regular fa-calendar-days"></i>
+                      Tues 6:00 AM <br />
+                      Thurs 7:00 PM <br />
+                      Sat 11:00 AM
+                    </li>
+                  </ul>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div class="stats-bar text-white rounded-4 py-4 mt-4">
-            <div class="row text-center align-items-center gy-4">
-              <div class="col-12 col-md-4">
-                <div class="display-5 fw-bold mb-1">10+</div>
-                <div class="fw-medium opacity-75">Years of Excellence</div>
-              </div>
-
-              <div class="col-12 col-md-4">
-                <div class="display-5 fw-bold mb-1">5000+</div>
-                <div class="fw-medium opacity-75">Active Members</div>
-              </div>
-
-              <div class="col-12 col-md-4">
-                <div class="display-5 fw-bold mb-1">50+</div>
-                <div class="fw-medium opacity-75">Weekly Classes</div>
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
-    <footer class="footer text-white pt-5 pb-4">
+    <footer class="footer bg-dark text-white pt-5 pb-4">
       <div class="container">
         <div class="row g-4">
           <!-- Brand -->
@@ -403,7 +337,7 @@
             </address>
 
             <div class="fw-semibold mb-2">Follow Us</div>
-            <div class="d-flex gap-4 mt-4">
+            <div class="d-flex gap-2">
               <a class="social-btn" href="#" aria-label="Facebook"
                 ><i class="fa-brands fa-facebook-f"></i
               ></a>
