@@ -31,7 +31,8 @@ a.btn {
 /* bg-light */
 
 #about-preview,
-#our-story {
+#our-story,
+#stats-bar-section {
   background-color: var(--brand-light);
 }
 body {
@@ -149,7 +150,8 @@ header .container-fluid > * {
   font-size: 1.8rem;
   line-height: 1;
 }
-#about-preview .stats-bar {
+#about-preview .stats-bar,
+#stats-bar-section .stats-bar {
   background-color: var(--brand-primary);
 }
 
@@ -216,3 +218,4 @@ footer .social-btn i {
 #our-trainers p.lead {
   color:;
 }
+/* ============about page stats-bar =========== */
