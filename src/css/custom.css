@@ -34,7 +34,8 @@ a.btn {
 #our-story,
 #stats-bar-section,
 #classes,
-#benefits {
+#benefits,
+#membership {
   background-color: var(--brand-light);
 }
 body {
@@ -141,7 +142,8 @@ header .container-fluid > * {
   font-size: 1.5rem;
 }
 #about-preview .card .icon-circle,
-#benefits .card .icon-circle {
+#benefits .card .icon-circle,
+#membership .card .icon-circle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -281,4 +283,63 @@ footer .social-btn i {
   background-color: var(--bs-secondary);
   color: #fff;
   transform: translateY(-2px);
+}
+/* membership */
+#membership .card i.fa-dumbbell,
+#membership .card i.fa-users,
+#membership .card i.fa-crown {
+  font-size: 1.5rem;
+  color: white;
+}
+#membership .card i.fa-dumbbell {
+  background-color: var(--bs-secondary);
+}
+#membership .card i.fa-users {
+  background-color: var(--bs-primary);
+}
+#membership .card i.fa-crown {
+  background-color: var(--bs-warning);
+}
+#membership .card i.fa-check {
+  color: var(--bs-success);
+}
+#membership .card i.fa-xmark {
+  color: var(--brand-secondary);
+}
+#membership .badge-popular {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%); /*lifts it above the border */
+
+  display: inline-flex;
+  width: auto;
+  padding: 0.35rem 0.65rem;
+  margin-top: -1rem;
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+#membership .plan-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#membership li {
+  padding: 0.4rem 0;
+}
+#membership li i {
+  margin: 0 0.3rem 0 0;
+}
+/* ======= membership – special offer ========= */
+#membership .special-offer {
+  background-color: rgb(182, 225, 239);
+  display: flex;
+  align-items: center;
+  min-height: 56px;
+  padding: 0.75rem 1rem;
+}
+
+#membership .special-offer p {
+  margin: 0;
 }
