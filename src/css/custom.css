@@ -33,7 +33,8 @@ a.btn {
 #about-preview,
 #our-story,
 #stats-bar-section,
-#classes {
+#classes,
+#benefits {
   background-color: var(--brand-light);
 }
 body {
@@ -129,15 +130,18 @@ header .container-fluid > * {
   transform: scale(1.05);
 }
 /* about */
-#about-preview .card {
+#about-preview .card,
+#benefits .card {
   border: none;
   background-color: var(--brand-light);
   text-align: center;
 }
-#about-preview .card h3 {
+#about-preview .card h3,
+#benefits .card h3 {
   font-size: 1.5rem;
 }
-#about-preview .card .icon-circle {
+#about-preview .card .icon-circle,
+#benefits .card .icon-circle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -147,7 +151,8 @@ header .container-fluid > * {
   align-items: center;
   align-self: center;
 }
-#about-preview .card .icon-circle i {
+#about-preview .card .icon-circle i,
+#benefits .card .icon-circle i {
   color: #fff;
   font-size: 1.8rem;
   line-height: 1;
@@ -240,6 +245,8 @@ footer .social-btn i {
 #testimonialsCarousel .carousel-control-next:hover .carousel-control-next-icon {
   background-color: var(--brand-primary);
 }
+
+/* ==========class timetable =============*/
 #schedule .schedule-class {
   background-color: var(--brand-primary);
   border-radius: 0.5rem;
