@@ -36,7 +36,8 @@ a.btn {
 #classes,
 #benefits,
 #membership,
-section.cta {
+section.cta,
+#contact-info {
   background-color: var(--brand-light);
 }
 body {
@@ -146,13 +147,15 @@ header .container-fluid > * {
 }
 #about-preview .card h3,
 #benefits .card h3,
-#perks .card h3 {
+#perks .card h3,
+#contact-info .card h3 {
   font-size: 1.5rem;
 }
 #about-preview .card .icon-circle,
 #benefits .card .icon-circle,
 #membership .card .icon-circle,
-#perks .card .icon-circle {
+#perks .card .icon-circle,
+#contact-info .card .icon-circle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -164,7 +167,8 @@ header .container-fluid > * {
 }
 #about-preview .card .icon-circle i,
 #benefits .card .icon-circle i,
-#perks .card .icon-circle i {
+#perks .card .icon-circle i,
+#contact-info .card .icon-circle i {
   color: #fff;
   font-size: 1.8rem;
   line-height: 1;
