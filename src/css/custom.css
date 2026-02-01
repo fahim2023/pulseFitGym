@@ -79,6 +79,12 @@ footer {
 .navbar .nav-link:focus {
   color: var(--brand-primary);
 }
+/* Active nav link (current page) */
+.navbar .nav-link.active,
+.navbar .nav-link[aria-current="page"] {
+  color: var(--brand-primary);
+  font-weight: 600;
+}
 
 /* header */
 header .container-fluid {
