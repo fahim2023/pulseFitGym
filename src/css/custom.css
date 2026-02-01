@@ -35,7 +35,8 @@ a.btn {
 #stats-bar-section,
 #classes,
 #benefits,
-#membership {
+#membership,
+section.cta {
   background-color: var(--brand-light);
 }
 body {
@@ -285,7 +286,6 @@ footer .social-btn i {
 .cta .cta-btn:focus {
   background-color: var(--bs-secondary);
   color: #fff;
-  transform: translateY(-2px);
 }
 /* membership */
 #membership .card i.fa-dumbbell,
@@ -346,6 +346,31 @@ footer .social-btn i {
 #membership .special-offer p {
   margin: 0;
 }
+
+/* perks */
 #perks .card {
   text-align: center;
+}
+/* cta membership page */
+/* Contact CTA button */
+.cta .cta-btn-contact {
+  background-color: transparent;
+  color: white;
+  border: 2px solid var(--bs-light);
+  border-radius: 0.5rem;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Hover: whole button becomes light */
+.cta-btn-contact:hover,
+.cta-btn-contact:focus {
+  background-color: var(--bs-light);
+  color: var(--bs-secondary);
+  border-color: var(--bs-light);
+  text-decoration: none;
 }
