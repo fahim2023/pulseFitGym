@@ -119,7 +119,7 @@ header .container-fluid > * {
 #classes-overview .card-img-top,
 #classes .card-img-top {
   width: 100%;
-  height: 100px;
+  height: 220px;
   object-fit: cover;
   display: block;
 }
