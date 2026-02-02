@@ -343,13 +343,164 @@
                 Schedule a free tour and see why thousands choose PulseFit Gym
               </p>
               <div class="d-flex justify-content-center gap-3">
-                <a href="" class="btn cta-btn mb-3">Book a Tour</a>
+                <a
+                  href=""
+                  class="btn cta-btn mb-3"
+                  data-bs-toggle="modal"
+                  data-bs-target="#tourModal"
+                  >Book a Tour</a
+                >
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <!-- book a tour modal -->
+    <div
+      class="modal fade"
+      id="tourModal"
+      tabindex="-1"
+      aria-labelledby="tourModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title h5 fw-bold" id="tourModalLabel">
+              Book a Gym Tour
+            </h2>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+
+          <div class="modal-body">
+            <p class="text-muted small mb-4">
+              Choose a day and time slot. Tours are available Mon–Fri (10am–2pm)
+              and Sat (9am–11am).
+            </p>
+
+            <form id="tourForm" novalidate>
+              <!-- Name -->
+              <div class="mb-3">
+                <label for="tourName" class="form-label fw-semibold">
+                  Name <span class="text-danger">*</span>
+                </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="tourName"
+                  name="name"
+                  placeholder="Your name"
+                  required
+                />
+                <div class="invalid-feedback">Please enter your name.</div>
+              </div>
+
+              <!-- Email -->
+              <div class="mb-3">
+                <label for="tourEmail" class="form-label fw-semibold">
+                  Email <span class="text-danger">*</span>
+                </label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="tourEmail"
+                  name="email"
+                  placeholder="you@example.com"
+                  required
+                />
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+
+              <!-- Phone -->
+              <div class="mb-3">
+                <label for="tourPhone" class="form-label fw-semibold">
+                  Phone <span class="text-danger">*</span>
+                </label>
+                <input
+                  type="tel"
+                  class="form-control"
+                  id="tourPhone"
+                  name="phone"
+                  placeholder=""
+                  required
+                />
+                <div class="invalid-feedback">Please enter a phone number.</div>
+              </div>
+
+              <!-- Day -->
+              <div class="mb-3">
+                <label for="tourDay" class="form-label fw-semibold">
+                  Day <span class="text-danger">*</span>
+                </label>
+                <select class="form-select" id="tourDay" name="day" required>
+                  <option value="" selected disabled>Select a day</option>
+                  <option value="mon">Monday</option>
+                  <option value="tue">Tuesday</option>
+                  <option value="wed">Wednesday</option>
+                  <option value="thu">Thursday</option>
+                  <option value="fri">Friday</option>
+                  <option value="sat">Saturday</option>
+                </select>
+                <div class="invalid-feedback">Please select a day.</div>
+              </div>
+
+              <!-- Tour Slot -->
+              <div class="mb-4">
+                <label for="tourTime" class="form-label fw-semibold">
+                  Tour Slot <span class="text-danger">*</span>
+                </label>
+
+                <select class="form-select" id="tourTime" name="time" required>
+                  <option value="" selected disabled>Select a time slot</option>
+
+                  <!-- Mon–Fri: 10:00 AM – 2:00 PM (30-min intervals) 
+                   optgroup element creates a grouping of options within a select element. had to look up to find an appropriate way of grouping my time slots -->
+                  <optgroup label="Monday – Friday (10:00 AM – 2:00 PM)">
+                    <option value="10:00">10:00 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                    <option value="11:30">11:30 AM</option>
+                    <option value="12:00">12:00 PM</option>
+                    <option value="12:30">12:30 PM</option>
+                    <option value="13:00">1:00 PM</option>
+                    <option value="13:30">1:30 PM</option>
+                    <option value="14:00">2:00 PM</option>
+                  </optgroup>
+
+                  <!-- Saturday: 9:00 AM – 11:00 AM (30-min intervals) -->
+                  <optgroup label="Saturday (9:00 AM – 11:00 AM)">
+                    <option value="09:00">9:00 AM</option>
+                    <option value="09:30">9:30 AM</option>
+                    <option value="10:00">10:00 AM</option>
+                    <option value="10:30">10:30 AM</option>
+                    <option value="11:00">11:00 AM</option>
+                  </optgroup>
+                </select>
+
+                <div class="invalid-feedback">Please select a time slot.</div>
+              </div>
+
+              <!-- Submit -->
+              <button
+                type="submit"
+                class="btn btn-warning w-100 fw-semibold text-dark"
+              >
+                Request Tour
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- footer -->
     <footer class="footer bg-dark text-white pt-5 pb-4">
       <div class="container">
