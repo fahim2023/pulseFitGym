@@ -240,9 +240,7 @@ footer .social-btn i {
 #our-trainers span.badge {
   background-color: var(--brand-primary);
 }
-#our-trainers p.lead {
-  color:;
-}
+
 /* ============testimonials =========== */
 /* Carousel controls visibility */
 
@@ -297,7 +295,7 @@ footer .social-btn i {
   background-color: var(--bs-secondary);
   color: #fff;
 }
-/* membership */
+/* =================membership=============== */
 #membership .card i.fa-dumbbell,
 #membership .card i.fa-users,
 #membership .card i.fa-crown {
@@ -358,7 +356,7 @@ footer .social-btn i {
   margin: 0;
 }
 
-/* perks */
+/* ============perks========== */
 #perks .card {
   text-align: center;
 }
@@ -393,4 +391,43 @@ footer .social-btn i {
 .contact-map iframe {
   width: 100%;
   height: 180px;
+}
+/* ===========Gallery============ */
+#gallery .gallery-card {
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+#gallery .gallery-img {
+  width: 100%;
+  height: 240px; /* set fixed height on all images */
+  object-fit: cover;
+  display: block;
+}
+
+/* Overlay at bottom */
+#gallery .gallery-overlay {
+  position: absolute;
+  inset: 0; /* stretches the overlay over the parent container */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1rem;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.65),
+    rgba(0, 0, 0, 0) 55%
+  ); /* i have learnt about gradinet backgrounds previously but had to look this up*/
+}
+
+#gallery .gallery-badge {
+  align-self: flex-start;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+#gallery .gallery-caption {
+  color: #fff;
+  font-size: 0.9rem;
+  line-height: 1.2;
 }
