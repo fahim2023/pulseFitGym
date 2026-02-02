@@ -224,6 +224,11 @@ footer .social-btn:focus {
 footer .social-btn i {
   font-size: 1.4rem;
 }
+footer i.fa-dumbbell {
+  font-size: 1.8rem;
+  rotate: 45deg;
+  color: var(--brand-primary-dark);
+}
 
 /* our trainers section - about.html*/
 #our-trainers .card-img-top {
