@@ -247,24 +247,33 @@ footer i.fa-dumbbell {
 }
 
 /* ============testimonials =========== */
-/* Carousel controls visibility */
+/* Carousel controls  */
 
-#testimonialsCarousel .carousel-control-prev-icon,
-#testimonialsCarousel .carousel-control-next-icon {
-  background-color: var(--brand-secondary);
-  border-radius: 50%;
-  padding: 1.4rem;
-}
-
-#testimonialsCarousel .carousel-control-prev,
-#testimonialsCarousel .carousel-control-next {
-  width: 5%;
-  opacity: 0.6;
-}
-
-#testimonialsCarousel .carousel-control-prev:hover .carousel-control-prev-icon,
-#testimonialsCarousel .carousel-control-next:hover .carousel-control-next-icon {
+#testimonialsCarousel .carousel-indicators button {
   background-color: var(--brand-primary);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: none;
+  opacity: 0.5;
+  transition: all 0.3s ease;
+}
+
+#testimonialsCarousel .carousel-indicators button.active {
+  opacity: 1;
+  transform: scale(1.2);
+}
+/* Stars styling */
+.stars {
+  font-size: 1.5rem;
+}
+
+/* Testimonial card smooth transition */
+#testimonialsCarousel .carousel-item {
+  transition: transform 0.6s ease-in-out;
+}
+#testimonials .card-body {
+  background-color: var(--brand-light);
 }
 
 /* ==========class timetable =============*/

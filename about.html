@@ -497,52 +497,88 @@
           </div>
         </div>
       </section>
-      <!-- <section id="testimonials ">
+
+      <section id="testimonials" class="py-5">
         <div class="container classes py-5">
           <h2 class="mb-3 text-center display-4 fw-bold">
             What Our Members Say
           </h2>
-          <p class="lead text-center mb-5">
+          <p class="lead text-center">
             Real stories from real people who've transformed their lives
           </p>
+
+          <!-- Testimonials Carousel -->
           <div
             id="testimonialsCarousel"
             class="carousel slide"
             data-bs-ride="carousel"
           >
-            <div class="carousel-inner">
-              Testimonial 1
+            <!-- Indicators -->
+            <div class="carousel-indicators d-flex gap-2">
+              <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#testimonialsCarousel"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+
+            <!-- Carousel Items -->
+            <div class="carousel-inner py-5">
+              <!-- Testimonial 1 -->
               <div class="carousel-item active">
                 <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-6">
-                    <div
-                      class="testimonial-card justify-content-start p-4 rounded-4 shadow-sm bg-white"
-                    >
-                      Stars
-                      <div class="stars mb-3" aria-label="5 star rating">
-                        ★★★★★
-                      </div>
+                  <div class="col-12 col-md-10 col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                      <div class="card-body p-4 p-md-5 text-center">
+                        <!-- Stars -->
+                        <div
+                          class="stars mb-3 text-warning"
+                          aria-label="5 star rating"
+                        >
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
 
-                      <p class="mb-4">
-                        “PulseFit completely changed my approach to fitness. The
-                        trainers are incredibly supportive and the community
-                        keeps me motivated every single day.”
-                      </p>
+                        <!-- Quote -->
+                        <p class="fs-5 mb-4 fst-italic">
+                          "PulseFit completely changed my approach to fitness.
+                          The trainers are incredibly supportive and the
+                          community keeps me motivated every single day."
+                        </p>
 
-                      Avatar + Name
-                      <div
-                        class="d-flex align-items-center justify-content-start gap-3"
-                      >
-                        <img
-                          src="./src/assets/images/hero.webp"
-                          height="45px"
-                          width="45px"
-                          alt="Sarah Johnson"
-                          class="avatar rounded-circle object-fit-cover"
-                        />
-                        <div class="text-start">
-                          <div class="fw-semibold">Sarah Johnson</div>
-                          <div class="text-muted small">Member since 2021</div>
+                        <!-- Avatar & Name -->
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-3"
+                        >
+                          <img
+                            src="./src/assets/images/avatar-2.webp"
+                            width="60"
+                            height="60"
+                            alt="Sarah Johnson"
+                            class="rounded-circle object-fit-cover"
+                          />
+                          <div class="text-start">
+                            <div class="fw-bold">Sarah Johnson</div>
+                            <small class="text-muted">Member since 2021</small>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -550,38 +586,46 @@
                 </div>
               </div>
 
-              Testimonial 2
-              <div class="carousel-item active">
+              <!-- Testimonial 2 -->
+              <div class="carousel-item">
                 <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-6">
-                    <div
-                      class="testimonial-card justify-content-start p-4 rounded-4 shadow-sm bg-white"
-                    >
-                      Stars
-                      <div class="stars mb-3" aria-label="5 star rating">
-                        ★★★★★
-                      </div>
+                  <div class="col-12 col-md-10 col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                      <div class="card-body p-4 p-md-5 text-center">
+                        <!-- Stars -->
+                        <div
+                          class="stars mb-3 text-warning"
+                          aria-label="5 star rating"
+                        >
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
 
-                      <p class="mb-4">
-                        “PulseFit completely changed my approach to fitness. The
-                        trainers are incredibly supportive and the community
-                        keeps me motivated every single day.”
-                      </p>
+                        <!-- Quote -->
+                        <p class="fs-5 mb-4 fst-italic">
+                          "Best gym I've ever joined! The equipment is top-notch
+                          and the classes are challenging but fun. I've lost 30
+                          pounds and feel amazing."
+                        </p>
 
-                      Avatar + Name
-                      <div
-                        class="d-flex align-items-center justify-content-start gap-3"
-                      >
-                        <img
-                          src="./src/assets/images/hero.webp"
-                          height="45px"
-                          width="45px"
-                          alt="Sarah Johnson"
-                          class="avatar rounded-circle object-fit-cover"
-                        />
-                        <div class="text-start">
-                          <div class="fw-semibold">Sarah Johnson</div>
-                          <div class="text-muted small">Member since 2021</div>
+                        <!-- Avatar & Name -->
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-3"
+                        >
+                          <img
+                            src="./src/assets/images/avatar-1.webp"
+                            width="60"
+                            height="60"
+                            alt="Mike Clayton"
+                            class="rounded-circle object-fit-cover"
+                          />
+                          <div class="text-start">
+                            <div class="fw-bold">Mike Clayton</div>
+                            <small class="text-muted">Member since 2022</small>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -589,38 +633,46 @@
                 </div>
               </div>
 
-              Testimonial 3
-              <div class="carousel-item active">
+              <!-- Testimonial 3 -->
+              <div class="carousel-item">
                 <div class="row justify-content-center">
-                  <div class="col-12 col-md-8 col-lg-6">
-                    <div
-                      class="testimonial-card justify-content-start p-4 rounded-4 shadow-sm bg-white"
-                    >
-                      Stars
-                      <div class="stars mb-3" aria-label="5 star rating">
-                        ★★★★★
-                      </div>
+                  <div class="col-12 col-md-10 col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                      <div class="card-body p-4 p-md-5 text-center">
+                        <!-- Stars -->
+                        <div
+                          class="stars mb-3 text-warning"
+                          aria-label="5 star rating"
+                        >
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                          <i class="fa-solid fa-star"></i>
+                        </div>
 
-                      <p class="mb-4">
-                        “PulseFit completely changed my approach to fitness. The
-                        trainers are incredibly supportive and the community
-                        keeps me motivated every single day.”
-                      </p>
+                        <!-- Quote -->
+                        <p class="fs-5 mb-4 fst-italic">
+                          "The personal trainers here are phenomenal. They
+                          really take the time to understand your goals and
+                          create a plan that works for you."
+                        </p>
 
-                      Avatar + Name
-                      <div
-                        class="d-flex align-items-center justify-content-start gap-3"
-                      >
-                        <img
-                          src="./src/assets/images/hero.webp"
-                          height="45px"
-                          width="45px"
-                          alt="Sarah Johnson"
-                          class="avatar rounded-circle object-fit-cover"
-                        />
-                        <div class="text-start">
-                          <div class="fw-semibold">Sarah Johnson</div>
-                          <div class="text-muted small">Member since 2021</div>
+                        <!-- Avatar & Name -->
+                        <div
+                          class="d-flex align-items-center justify-content-center gap-3"
+                        >
+                          <img
+                            src="./src/assets/images/avatar-3.webp"
+                            width="60"
+                            height="60"
+                            alt="Emma Davis"
+                            class="rounded-circle object-fit-cover"
+                          />
+                          <div class="text-start">
+                            <div class="fw-bold">Emma Davis</div>
+                            <small class="text-muted">Member since 2020</small>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -628,35 +680,9 @@
                 </div>
               </div>
             </div>
-
-            Controls
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#testimonialsCarousel"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#testimonialsCarousel"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- footer -->
     <footer class="footer text-white pt-5 pb-4">
