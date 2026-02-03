@@ -1,494 +1,417 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PulseFit Gym | Home</title>
-    <meta
-      name="description"
-      content="PulseFit Gym offers modern fitness facilities, expert trainers, group classes, and flexible membership plans to help you reach your fitness goals."
-    />
-    <meta
-      name="keywords"
-      content="gym, fitness, workout, personal training, classes, health, strength, PulseFit"
-    />
-    <meta name="author" content="Fahim Adam" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="src/css/custom.css" />
-    <script
-      src="https://kit.fontawesome.com/4555a50a11.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <i class="fa-solid fa-dumbbell display-6"></i>
-          PulseFit Gym
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
-                >Home</a
-              >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PulseFit Gym | Home</title>
+  <meta name="description"
+    content="PulseFit Gym offers modern fitness facilities, expert trainers, group classes, and flexible membership plans to help you reach your fitness goals.">
+  <meta name="keywords" content="gym, fitness, workout, personal training, classes, health, strength, PulseFit">
+  <meta name="author" content="Fahim Adam">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="src/css/custom.css">
+  <script src="https://kit.fontawesome.com/4555a50a11.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="fa-solid fa-dumbbell display-6"></i>
+        PulseFit Gym
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="classes.html">Classes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="membership.html">Membership</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- header -->
+  <header>
+    <div class="container-fluid d-flex align-items-center justify-content-center">
+      <div class="row">
+        <div class="col-12 offset-md-2 col-md-8 text-center text-white py-4">
+          <h1 class="display-3 fw-bold mb-4">
+            Transform Your Body, <br>
+            Transform Your Life
+          </h1>
+          <p class="lead mb-5">
+            Join our community of fitness enthusiasts and achieve your health
+            goals, with state of the art equipment, expert trainers, and
+            motivating group classes.
+          </p>
+          <div class="link-wrapper d-flex gap-3 justify-content-center">
+            <a href="membership.html#membership" class="btn btn-primary px-4 py-3">Get Started</a>
+            <a href="about.html" class="btn btn-outline-light px-4 py-3">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- main -->
+  <main>
+    <!-- an overview of classes offered -->
+    <section id="classes-overview">
+      <div class="container classes py-5">
+        <h2 class="mb-3 text-center display-4 fw-bold">Featured Classes</h2>
+        <p class="lead text-center mb-5">
+          Try our most popular fitness classes designed for every fitness
+          level and goal.
+        </p>
+        <div class="row g-5">
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="./src/assets/images/home-class-1.webp" class="card-img-top"
+                alt="Group fitness class seated on yoga mats in a calm studio while an instructor leads the session">
+              <div class="card-body">
+                <p>
+                  <span class="badge text-bg-danger">Beginner</span>
+                </p>
+                <h3 class="card-title">Yoga Flow</h3>
+                <p class="card-text">
+                  Improve flexibility and find your inner peace with our
+                  guided yoga sessions.
+                </p>
+                <ul class="class-info list-unstyled d-flex flex-column gap-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i><span>60 mins</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-users"></i><span>20 people</span>
+                  </li>
+                  <li class="d-flex align-items-baseline gap-2">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    Mon 8:00 AM <br>
+                    Wed 6:00 PM <br>
+                    Sat 9:00 AM
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="./src/assets/images/home-class-2.webp" class="card-img-top"
+                alt="Row of red stationary spin bikes arranged inside a modern gym training area">
+              <div class="card-body">
+                <p>
+                  <span class="badge text-bg-warning">Intermediate</span>
+                </p>
+                <h3 class="card-title">Spin Cycle</h3>
+                <p class="card-text">
+                  High-energy cycling class that will push your cardio to the
+                  next level.
+                </p>
+                <ul class="class-info list-unstyled d-flex flex-column gap-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i><span>45 mins</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-users"></i><span>25 people</span>
+                  </li>
+                  <li class="d-flex align-items-baseline gap-2">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    Tues 6:30 AM <br>
+                    Thurs 5:30 PM <br>
+                    Sat 10:30 AM
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card h-100">
+              <img src="./src/assets/images/home-class-3.webp" class="card-img-top"
+                alt="Person performing a seated stretch on a yoga mat inside a gym training space">
+              <div class="card-body">
+                <p>
+                  <span class="badge text-bg-success">All Levels</span>
+                </p>
+                <h3 class="card-title">HIIT Cardio</h3>
+                <p class="card-text">
+                  Burn calories and boost metabolism with high-intensity
+                  interval training.
+                </p>
+                <ul class="class-info list-unstyled d-flex flex-column gap-3">
+                  <li class="d-flex align-items-center gap-2">
+                    <i class="fa-regular fa-clock"></i><span>40 mins</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2">
+                    <i class="fa-solid fa-users"></i><span>30 people</span>
+                  </li>
+                  <li class="d-flex align-items-baseline gap-2">
+                    <i class="fa-regular fa-calendar-days"></i>
+                    Tues 7:00 AM <br>
+                    Thurs 6:00 PM <br>
+                    Sun :00 AM
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-4">
+          <a href="classes.html" class="btn btn-primary">View all Classes</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- an overview of the gallery -->
+    <section id="min-gallery">
+      <div class="container classes py-5">
+        <h2 class="mb-3 text-center display-4 fw-bold">Our Facilities</h2>
+        <p class="lead text-center mb-5">
+          Take a look at our modern, fully-equipped facility where fitness
+          meets fun.
+        </p>
+        <div class="row gx-3">
+          <!--  adds gutters/spacing -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="gallery-item">
+              <img src="./src/assets/images/home-gal-1.webp"
+                alt="Athlete resting during an intense workout session in a gym environment" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="gallery-item">
+              <img src="./src/assets/images/home-gal-2.webp"
+                alt="Two people performing a functional training exercise using a large tyre in a gym"
+                class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="gallery-item">
+              <img src="./src/assets/images/home-gal-3.webp"
+                alt="Person performing a seated stretch on a yoga mat inside a gym training space" class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="gallery-item">
+              <img src="./src/assets/images/home-gal-4.webp" alt="Facility 4"
+                class="Set of dumbbells arranged on a rack inside a gym weight training area">
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="gallery-item">
+              <img src="./src/assets/images/home-gal-5.webp"
+                alt="Group fitness class seated on yoga mats in a calm studio while an instructor leads the session"
+                class="img-fluid">
+            </figure>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <figure class="gallery-item">
+              <img src="./src/assets/images/home-gal-6.webp"
+                alt="Row of red stationary spin bikes arranged inside a modern gym training area" class="img-fluid">
+            </figure>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mt-5 mb-4">
+          <a href="gallery.html#gallery" class="btn btn-primary">View Full Gallery</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- about-preview -->
+    <section id="about-preview">
+      <div class="container classes py-5">
+        <h2 class="mb-3 text-center display-4 fw-bold">
+          Why Choose PulseFit?
+        </h2>
+        <p class="lead text-center mb-5">
+          We're more than just a gym - we're a community committed to helping
+          you achieve your fitness goals.
+        </p>
+        <div class="row g-4">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="icon-circle">
+                <i class="fa-solid fa-dumbbell card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h3>Modern Equipment</h3>
+                <p class="card-text">
+                  State-of-the-art fitness equipment regularly maintained and
+                  updated.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="icon-circle">
+                <i class="fa-solid fa-users card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h3>Expert Trainers</h3>
+                <p class="card-text">
+                  Certified fitness professionals dedicated to helping you
+                  reach your goals.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="icon-circle">
+                <i class="fa-solid fa-award card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h3>Proven Results</h3>
+                <p class="card-text">
+                  Join thousands of members who have transformed their lives
+                  with us.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card h-100">
+              <div class="icon-circle">
+                <i class="fa-solid fa-heart card-img-top"></i>
+              </div>
+              <div class="card-body">
+                <h3>Community Focus</h3>
+                <p class="card-text">
+                  A welcoming environment where everyone supports each other.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="stats-bar text-white rounded-4 py-4 mt-4">
+          <div class="row text-center align-items-center gy-4">
+            <div class="col-12 col-md-4">
+              <div class="display-5 fw-bold mb-1">10+</div>
+              <div class="fw-medium opacity-75">Years of Excellence</div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="display-5 fw-bold mb-1">5000+</div>
+              <div class="fw-medium opacity-75">Active Members</div>
+            </div>
+
+            <div class="col-12 col-md-4">
+              <div class="display-5 fw-bold mb-1">50+</div>
+              <div class="fw-medium opacity-75">Weekly Classes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- footer -->
+  <footer class="footer text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4">
+        <!-- Brand -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <a href="index.html" class="d-flex align-items-center gap-2 text-white text-decoration-none mb-3">
+            <i class="fa-solid fa-dumbbell"></i>
+            <span class="fw-semibold">PulseFit Gym</span>
+          </a>
+          <p class="text-white-50 mb-0">
+            Your journey to a healthier, stronger you starts here.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="fw-semibold mb-3">Quick Links</h4>
+          <ul class="list-unstyled mb-0">
+            <li><a class="footer-link" href="index.html">Home</a></li>
+            <li>
+              <a class="footer-link" href="classes.html#classes">Classes</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
+            <li>
+              <a class="footer-link" href="membership.html">Membership</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="classes.html">Classes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="membership.html">Membership</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="gallery.html">Gallery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+            <li>
+              <a class="footer-link" href="gallery.html#gallery">Gallery</a>
             </li>
           </ul>
         </div>
-      </div>
-    </nav>
-    <!-- header -->
-    <header>
-      <div
-        class="container-fluid d-flex align-items-center justify-content-center"
-      >
-        <div class="row">
-          <div class="col-12 offset-md-2 col-md-8 text-center text-white py-4">
-            <h1 class="display-3 fw-bold mb-4">
-              Transform Your Body, <br />
-              Transform Your Life
-            </h1>
-            <p class="lead mb-5">
-              Join our community of fitness enthusiasts and achieve your health
-              goals, with state of the art equipment, expert trainers, and
-              motivating group classes.
-            </p>
-            <div class="link-wrapper d-flex gap-3 justify-content-center">
-              <a
-                href="membership.html#membership"
-                class="btn btn-primary px-4 py-3"
-                >Get Started</a
-              >
-              <a href="about.html" class="btn btn-outline-light px-4 py-3"
-                >Learn More</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-    <!-- main -->
-    <main>
-      <!-- an overview of classes offered -->
-      <section id="classes-overview">
-        <div class="container classes py-5">
-          <h2 class="mb-3 text-center display-4 fw-bold">Featured Classes</h2>
-          <p class="lead text-center mb-5">
-            Try our most popular fitness classes designed for every fitness
-            level and goal.
-          </p>
-          <div class="row g-5">
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100">
-                <img
-                  src="./src/assets/images/home-class-1.webp"
-                  class="card-img-top"
-                  alt="Group fitness class seated on yoga mats in a calm studio while an instructor leads the session"
-                />
-                <div class="card-body">
-                  <p>
-                    <span class="badge text-bg-danger">Beginner</span>
-                  </p>
-                  <h3 class="card-title">Yoga Flow</h3>
-                  <p class="card-text">
-                    Improve flexibility and find your inner peace with our
-                    guided yoga sessions.
-                  </p>
-                  <ul class="class-info list-unstyled d-flex flex-column gap-3">
-                    <li class="d-flex align-items-center gap-2">
-                      <i class="fa-regular fa-clock"></i><span>60 mins</span>
-                    </li>
-                    <li class="d-flex align-items-center gap-2">
-                      <i class="fa-solid fa-users"></i><span>20 people</span>
-                    </li>
-                    <li class="d-flex align-items-baseline gap-2">
-                      <i class="fa-regular fa-calendar-days"></i>
-                      Mon 8:00 AM <br />
-                      Wed 6:00 PM <br />
-                      Sat 9:00 AM
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100">
-                <img
-                  src="./src/assets/images/home-class-2.webp"
-                  class="card-img-top"
-                  alt="Row of red stationary spin bikes arranged inside a modern gym training area"
-                />
-                <div class="card-body">
-                  <p>
-                    <span class="badge text-bg-warning">Intermediate</span>
-                  </p>
-                  <h3 class="card-title">Spin Cycle</h3>
-                  <p class="card-text">
-                    High-energy cycling class that will push your cardio to the
-                    next level.
-                  </p>
-                  <ul class="class-info list-unstyled d-flex flex-column gap-3">
-                    <li class="d-flex align-items-center gap-2">
-                      <i class="fa-regular fa-clock"></i><span>45 mins</span>
-                    </li>
-                    <li class="d-flex align-items-center gap-2">
-                      <i class="fa-solid fa-users"></i><span>25 people</span>
-                    </li>
-                    <li class="d-flex align-items-baseline gap-2">
-                      <i class="fa-regular fa-calendar-days"></i>
-                      Tues 6:30 AM <br />
-                      Thurs 5:30 PM <br />
-                      Sat 10:30 AM
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card h-100">
-                <img
-                  src="./src/assets/images/home-class-3.webp"
-                  class="card-img-top"
-                  alt="Person performing a seated stretch on a yoga mat inside a gym training space"
-                />
-                <div class="card-body">
-                  <p>
-                    <span class="badge text-bg-success">All Levels</span>
-                  </p>
-                  <h3 class="card-title">HIIT Cardio</h3>
-                  <p class="card-text">
-                    Burn calories and boost metabolism with high-intensity
-                    interval training.
-                  </p>
-                  <ul class="class-info list-unstyled d-flex flex-column gap-3">
-                    <li class="d-flex align-items-center gap-2">
-                      <i class="fa-regular fa-clock"></i><span>40 mins</span>
-                    </li>
-                    <li class="d-flex align-items-center gap-2">
-                      <i class="fa-solid fa-users"></i><span>30 people</span>
-                    </li>
-                    <li class="d-flex align-items-baseline gap-2">
-                      <i class="fa-regular fa-calendar-days"></i>
-                      Tues 7:00 AM <br />
-                      Thurs 6:00 PM <br />
-                      Sun :00 AM
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="d-flex justify-content-center mt-5 mb-4">
-            <a href="classes.html" class="btn btn-primary">View all Classes</a>
-          </div>
-        </div>
-      </section>
 
-      <!-- an overview of the gallery -->
-      <section id="min-gallery">
-        <div class="container classes py-5">
-          <h2 class="mb-3 text-center display-4 fw-bold">Our Facilities</h2>
-          <p class="lead text-center mb-5">
-            Take a look at our modern, fully-equipped facility where fitness
-            meets fun.
-          </p>
-          <div class="row gx-3">
-            <!--  adds gutters/spacing -->
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-1.webp"
-                  alt="Athlete resting during an intense workout session in a gym environment"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-2.webp"
-                  alt="Two people performing a functional training exercise using a large tyre in a gym"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-3.webp"
-                  alt="Person performing a seated stretch on a yoga mat inside a gym training space"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-4.webp"
-                  alt="Facility 4"
-                  class="Set of dumbbells arranged on a rack inside a gym weight training area"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-5.webp"
-                  alt="Group fitness class seated on yoga mats in a calm studio while an instructor leads the session"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-            <div class="col-12 col-md-6 col-lg-4">
-              <figure class="gallery-item">
-                <img
-                  src="./src/assets/images/home-gal-6.webp"
-                  alt="Row of red stationary spin bikes arranged inside a modern gym training area"
-                  class="img-fluid"
-                />
-              </figure>
-            </div>
-          </div>
-          <div class="d-flex justify-content-center mt-5 mb-4">
-            <a href="gallery.html#gallery" class="btn btn-primary"
-              >View Full Gallery</a
-            >
-          </div>
+        <!-- Resources -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="fw-semibold mb-3">Resources</h4>
+          <ul class="list-unstyled gap-2 mb-0">
+            <li>
+              <a class="footer-link" href="membership.html#membership">Membership Plans</a>
+            </li>
+            <li>
+              <a class="footer-link" href="about.html#our-trainers">Personal Training</a>
+            </li>
+          </ul>
         </div>
-      </section>
 
-      <!-- about-preview -->
-      <section id="about-preview">
-        <div class="container classes py-5">
-          <h2 class="mb-3 text-center display-4 fw-bold">
-            Why Choose PulseFit?
-          </h2>
-          <p class="lead text-center mb-5">
-            We're more than just a gym - we're a community committed to helping
-            you achieve your fitness goals.
-          </p>
-          <div class="row g-4">
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-dumbbell card-img-top"></i>
-                </div>
-                <div class="card-body">
-                  <h3>Modern Equipment</h3>
-                  <p class="card-text">
-                    State-of-the-art fitness equipment regularly maintained and
-                    updated.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-users card-img-top"></i>
-                </div>
-                <div class="card-body">
-                  <h3>Expert Trainers</h3>
-                  <p class="card-text">
-                    Certified fitness professionals dedicated to helping you
-                    reach your goals.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-award card-img-top"></i>
-                </div>
-                <div class="card-body">
-                  <h3>Proven Results</h3>
-                  <p class="card-text">
-                    Join thousands of members who have transformed their lives
-                    with us.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-6 col-lg-3">
-              <div class="card h-100">
-                <div class="icon-circle">
-                  <i class="fa-solid fa-heart card-img-top"></i>
-                </div>
-                <div class="card-body">
-                  <h3>Community Focus</h3>
-                  <p class="card-text">
-                    A welcoming environment where everyone supports each other.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="stats-bar text-white rounded-4 py-4 mt-4">
-            <div class="row text-center align-items-center gy-4">
-              <div class="col-12 col-md-4">
-                <div class="display-5 fw-bold mb-1">10+</div>
-                <div class="fw-medium opacity-75">Years of Excellence</div>
-              </div>
+        <!-- Contact -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <h4 class="fw-semibold mb-3">Contact</h4>
 
-              <div class="col-12 col-md-4">
-                <div class="display-5 fw-bold mb-1">5000+</div>
-                <div class="fw-medium opacity-75">Active Members</div>
-              </div>
+          <address class="list-unstyled d-grid gap-2 mb-3">
+            123 Fitness Street<br>
+            Preston, Lancashire, PR5 1QW<br>
+            +1 (555) 123-4567<br>
+            info@pulsefit.com<br>
+          </address>
 
-              <div class="col-12 col-md-4">
-                <div class="display-5 fw-bold mb-1">50+</div>
-                <div class="fw-medium opacity-75">Weekly Classes</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <!-- footer -->
-    <footer class="footer text-white pt-5 pb-4">
-      <div class="container">
-        <div class="row g-4">
-          <!-- Brand -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <a
-              href="index.html"
-              class="d-flex align-items-center gap-2 text-white text-decoration-none mb-3"
-            >
-              <i class="fa-solid fa-dumbbell"></i>
-              <span class="fw-semibold">PulseFit Gym</span>
+          <div class="fw-semibold mb-2">Follow Us</div>
+          <div class="d-flex gap-4 mt-4">
+            <a class="social-btn" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"
+              aria-label="Visit our Facebook page (opens in new tab)">
+              <i class="fa-brands fa-facebook-f"></i>
             </a>
-            <p class="text-white-50 mb-0">
-              Your journey to a healthier, stronger you starts here.
-            </p>
+
+            <a class="social-btn" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer"
+              aria-label="Visit our Instagram page (opens in new tab)">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a class="social-btn" href="https://x.com/home/" target="_blank" rel="noopener noreferrer"
+              aria-label="Visit our Twitter page (opens in new tab)">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
           </div>
-
-          <!-- Quick Links -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <h6 class="fw-semibold mb-3">Quick Links</h6>
-            <ul class="list-unstyled mb-0">
-              <li><a class="footer-link" href="index.html">Home</a></li>
-              <li>
-                <a class="footer-link" href="classes.html#classes">Classes</a>
-              </li>
-              <li>
-                <a class="footer-link" href="membership.html">Membership</a>
-              </li>
-              <li>
-                <a class="footer-link" href="gallery.html#gallery">Gallery</a>
-              </li>
-            </ul>
-          </div>
-
-          <!-- Resources -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <h4 class="fw-semibold mb-3">Resources</h4>
-            <ul class="list-unstyled gap-2 mb-0">
-              <li>
-                <a class="footer-link" href="membership.html#membership"
-                  >Membership Plans</a
-                >
-              </li>
-              <li>
-                <a class="footer-link" href="about.html#our-trainers"
-                  >Personal Training</a
-                >
-              </li>
-            </ul>
-          </div>
-
-          <!-- Contact -->
-          <div class="col-12 col-md-6 col-lg-3">
-            <h4 class="fw-semibold mb-3">Contact</h4>
-
-            <address class="list-unstyled d-grid gap-2 mb-3">
-              123 Fitness Street<br />
-              Preston, Lancashire, PR5 1QW<br />
-              +1 (555) 123-4567<br />
-              info@pulsefit.com<br />
-            </address>
-
-            <div class="fw-semibold mb-2">Follow Us</div>
-            <div class="d-flex gap-4 mt-4">
-              <a
-                class="social-btn"
-                href="https://www.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Facebook page (opens in new tab)"
-              >
-                <i class="fa-brands fa-facebook-f"></i>
-              </a>
-
-              <a
-                class="social-btn"
-                href="https://www.instagram.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Instagram page (opens in new tab)"
-              >
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-
-              <a
-                class="social-btn"
-                href="https://x.com/home/"
-                target="_blank"
-                rel="noopener noreferrer"
-                aria-label="Visit our Twitter page (opens in new tab)"
-              >
-                <i class="fa-brands fa-x-twitter"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <hr class="border-secondary my-4" />
-
-        <div class="text-center text-white-50 small">
-          © 2026 PulseFit Gym. All rights reserved.
         </div>
       </div>
-    </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <hr class="border-secondary my-4">
+
+      <div class="text-center text-white-50 small">
+        © 2026 PulseFit Gym. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

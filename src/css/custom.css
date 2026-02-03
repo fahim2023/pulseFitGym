@@ -46,9 +46,11 @@ body {
 }
 
 /* headings */
-#classes-overview h3 {
+#classes-overview h3,
+#our-trainers .card h3 {
   font-size: 1.25rem;
 }
+#our-trainers .card h4,
 footer h4 {
   font-size: 1rem;
 }
