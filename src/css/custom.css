@@ -37,7 +37,8 @@ a.btn {
 #benefits,
 #membership,
 section.cta,
-#contact-cards {
+#contact-cards,
+#core-values {
   background-color: var(--brand-light);
 }
 body {
@@ -140,7 +141,8 @@ header .container-fluid > * {
 }
 /* about */
 #about-preview .card,
-#benefits .card {
+#benefits .card,
+#core-values .card {
   border: none;
   background-color: var(--brand-light);
   text-align: center;
@@ -156,7 +158,8 @@ header .container-fluid > * {
 #membership .card .icon-circle,
 #perks .card .icon-circle,
 #contact-cards .card .icon-circle,
-#mission-vision-promise .card .icon-circle {
+#mission-vision-promise .card .icon-circle,
+#core-values .card .icon-circle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -170,7 +173,8 @@ header .container-fluid > * {
 #benefits .card .icon-circle i,
 #perks .card .icon-circle i,
 #contact-cards .card .icon-circle i,
-#mission-vision-promise .card .icon-circle i {
+#mission-vision-promise .card .icon-circle i,
+#core-values .card .icon-circle i {
   color: #fff;
   font-size: 1.8rem;
   line-height: 1;
