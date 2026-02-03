@@ -155,7 +155,8 @@ header .container-fluid > * {
 #benefits .card .icon-circle,
 #membership .card .icon-circle,
 #perks .card .icon-circle,
-#contact-cards .card .icon-circle {
+#contact-cards .card .icon-circle,
+#mission-vision-promise .card .icon-circle {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -168,7 +169,8 @@ header .container-fluid > * {
 #about-preview .card .icon-circle i,
 #benefits .card .icon-circle i,
 #perks .card .icon-circle i,
-#contact-cards .card .icon-circle i {
+#contact-cards .card .icon-circle i,
+#mission-vision-promise .card .icon-circle i {
   color: #fff;
   font-size: 1.8rem;
   line-height: 1;
