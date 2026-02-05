@@ -75,6 +75,16 @@ Wireframes were created before development to plan layout and content hierarchy 
 - Tablet
 - Mobile
 
+### Home Page
+
+![Home Desktop](wireframes/homepage-desktop.png)
+
+### About Page
+
+![About Desktop](wireframes/aboutdesktop_wireframe.png)
+![About Tablet](wireframes/about-tablet.png)
+![About Mobile](wireframes/about-mobile.png)
+
 Key design decisions included:
 
 - Prominent hero section with CTA
