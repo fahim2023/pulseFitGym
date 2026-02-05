@@ -20,10 +20,6 @@
   --bs-btn-active-bg: var(--brand-primary-dark);
   --bs-btn-active-border-color: var(--brand-primary-dark);
 }
-/* Optimize font loading */
-@font-face {
-  font-display: swap;
-}
 
 /* ******** global styles**********************  */
 /* button style  */
