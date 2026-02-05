@@ -466,8 +466,14 @@ footer i.fa-dumbbell {
 figure.gallery-card {
   margin: 0;
 }
-/* ========media queries========= */
-/* @media (max-width: 575.98px) {
+/* media query */
+@media (min-width: 768px) {
   header {
+    background-image: url("/src/assets/images/hero-tablet.webp");
   }
-} */
+}
+@media (min-width: 576px) {
+  header {
+    background-image: url("/src/assets/images/hero-mobile.webp");
+  }
+}
