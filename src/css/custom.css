@@ -105,7 +105,7 @@ header .container-fluid {
   min-height: 60vh;
   background: url("../assets/images/hero-1.webp") center / cover no-repeat;
   position: relative;
-  margin-top: 66px;
+  margin-top: 50px;
 }
 header .container-fluid::before {
   content: "";
