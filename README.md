@@ -9,7 +9,7 @@ This project was built as a user-centric frontend milestone project, with a stro
 
 ## Live Site
 
-- [(Add deployed link here)](https://fahim2023.github.io/pulseFitGym/)
+- (https://fahim2023.github.io/pulseFitGym/)
 
 ---
 
@@ -77,13 +77,13 @@ Wireframes were created before development to plan layout and content hierarchy 
 
 ### Home Page
 
-![Home Desktop](wireframes/homepage-desktop.png)
+![Home Desktop](/src/assets/wireframes/homepage-desktop.png)
 
 ### About Page
 
-![About Desktop](wireframes/aboutdesktop_wireframe.png)
-![About Tablet](wireframes/about-tablet.png)
-![About Mobile](wireframes/about-mobile.png)
+![About Desktop](/src/assets/wireframes/aboutdesktop_wireframe.png)
+![About Tablet](/src/assets/wireframes/about-tablet.png)
+![About Mobile](/src/assets/wireframes/about-mobile.png)
 
 Key design decisions included:
 
