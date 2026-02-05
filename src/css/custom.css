@@ -103,7 +103,7 @@ footer {
 /* header */
 header .container-fluid {
   min-height: 60vh;
-  background: url("../assets/images/hero.webp") center / cover no-repeat;
+  background: url("../assets/images/hero-1.webp") center / cover no-repeat;
   position: relative;
 }
 header .container-fluid::before {
