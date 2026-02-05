@@ -47,11 +47,13 @@ body {
 
 /* headings */
 #classes-overview h3,
-#our-trainers .card h3 {
+#our-trainers .card h3,
+#classes .card h3,
+#membership .card h3 {
   font-size: 1.25rem;
 }
 #our-trainers .card h4,
-footer h4 {
+footer h3 {
   font-size: 1rem;
 }
 /* *******************************************  */
@@ -461,7 +463,9 @@ footer i.fa-dumbbell {
   font-size: 0.9rem;
   line-height: 1.2;
 }
-
+figure.gallery-card {
+  margin: 0;
+}
 /* ========media queries========= */
 /* @media (max-width: 575.98px) {
   header {
