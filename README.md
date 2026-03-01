@@ -158,6 +158,23 @@ Key design decisions included:
 - Responsive layout tested on multiple screen sizes
 - Buttons and CTAs tested for correct behaviour
 
+### Validation
+
+#### HTML
+All HTML pages were tested using the W3C Nu HTML Checker and passed with no errors.
+
+- Home: ![HTML Validation - Home](/src/assets/images/index.png)
+- About: ![HTML Validation - About](/src/assets/images/about.png)
+- Classes: ![HTML Validation - Classes](/src/assets/images/classes.png)
+- Membership: ![HTML Validation - Membership](/src/assets/images/membership.png)
+- Gallery: ![HTML Validation - Gallery](/src/assets/images/gallery.png)
+- Contact: ![HTML Validation - Contact](/src/assets/images/contact.png)
+
+#### CSS
+The CSS stylesheet was tested using the W3C CSS Validator and passed with no errors.
+
+![CSS Validation](/src/assets/images/custom_css.png)
+
 ### User Story Testing
 
 - Users can find class and membership information easily
