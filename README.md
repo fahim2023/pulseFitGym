@@ -287,11 +287,16 @@ The site was deployed using GitHub Pages.
 
 ---
 
-## Credits
+## Credits & External Sources
 
 - Design and development: **Fahim Adam**
-- Icons: Font Awesome
-- Framework: Bootstrap 5
+
+### External Libraries & Frameworks
+
+| Source       | Link                                         | Use                                        |
+| ------------ | -------------------------------------------- | ------------------------------------------ |
+| Bootstrap 5  | [getbootstrap.com](https://getbootstrap.com) | CSS framework, grid system, and components |
+| Font Awesome | [fontawesome.com](https://fontawesome.com)   | Icons used throughout the site             |
 
 ---
 
