@@ -309,9 +309,15 @@ The CSS stylesheet was tested using the W3C CSS Validator and passed with no err
 
 ### User Story Testing
 
-- Users can find class and membership information easily
-- Users can contact the gym without confusion
-- Users can navigate the site intuitively
+| User Story                                                                               | How it is met                                                                      | Screenshot                                                |
+| ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| User Story 1 – First-Time Visitor: I need easy navigation and a responsive layout        | Responsive navbar present on all pages with clear links to all sections            | ![Navbar](/src/assets/images/navlink-test-1.png)          |
+| User Story 2 – Prospective Member: I need clear information about classes and trainers   | Classes page displays class cards with details, About page lists trainers          | ![Classes](/src/assets/images/navlink-test-3.png)         |
+| User Story 3 – Mobile User: I need the website to display correctly on my phone          | Bootstrap mobile-first grid ensures all pages adapt to small screens               | ![Mobile Home](/src/assets/images/home_mobile.png)        |
+| User Story 4 – Returning Visitor: I need quick access to classes and contact information | Navigation links to Classes and Contact are visible and consistent on every page   | ![Nav](/src/assets/images/navlink-test-1.png)             |
+| User Story 5 – Potential Customer: I need clear calls-to-action to take the next step    | CTA buttons are present on all key pages directing users to membership and contact | ![CTA](/src/assets/images/get_started_to_choose_plan.png) |
+| User Story 6 – Gallery of Facilities: I need a gallery showing the gym's facilities      | Gallery page displays gym images in a responsive grid with category labels         | ![Gallery](/src/assets/images/navlink-test-5.png)         |
+| User Story 7 – Testimonials: I need to read testimonials from existing members           | Testimonials carousel section is included on the Home page                         | ![Home](/src/assets/images/navlink-test-1.png)            |
 
 ### Browser Testing
 
