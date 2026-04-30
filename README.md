@@ -232,12 +232,17 @@ Manual testing was carried out to ensure the website functions correctly, is eas
 
 #### Functionality Testing
 
-| Feature             | Expected Outcome                          | Result |
-| ------------------- | ----------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Navigation links    | All links navigate to correct pages       | Pass   | ![Home](/src/assets/images/navlink-test-1.png) ![About](/src/assets/images/navlink-test-2.png) ![Classes](/src/assets/images/navlink-test-3.png) ![Membership](/src/assets/images/navlink-test-4.png) ![Gallery](/src/assets/images/navlink-test-5.png) ![Contact](/src/assets/images/navlink-test-6.png) |
-| CTA buttons         | Buttons direct users to relevant sections | Pass   |
-| Contact form        | Form requires input before submission     | Pass   |
-| Modal (Book a Tour) | Modal opens and closes correctly          | Pass   |
+| Feature                 | Expected Outcome                          | Result | Screenshot                                           |
+| ----------------------- | ----------------------------------------- | ------ | ---------------------------------------------------- |
+| Navigation - Home       | Navigates to Home page                    | Pass   | ![Home](/src/assets/images/navlink-test-1.png)       |
+| Navigation - About      | Navigates to About page                   | Pass   | ![About](/src/assets/images/navlink-test-2.png)      |
+| Navigation - Classes    | Navigates to Classes page                 | Pass   | ![Classes](/src/assets/images/navlink-test-3.png)    |
+| Navigation - Membership | Navigates to Membership page              | Pass   | ![Membership](/src/assets/images/navlink-test-4.png) |
+| Navigation - Gallery    | Navigates to Gallery page                 | Pass   | ![Gallery](/src/assets/images/navlink-test-5.png)    |
+| Navigation - Contact    | Navigates to Contact page                 | Pass   | ![Contact](/src/assets/images/navlink-test-6.png)    |
+| CTA buttons             | Buttons direct users to relevant sections | Pass   |                                                      |
+| Contact form            | Form requires input before submission     | Pass   |                                                      |
+| Modal (Book a Tour)     | Modal opens and closes correctly          | Pass   |                                                      |
 
 ---
 
