@@ -228,10 +228,45 @@ Reusable components are used across the site for consistency:
 
 ### Manual Testing
 
-- Navigation links tested on all pages
-- Forms tested for required fields
-- Responsive layout tested on multiple screen sizes
-- Buttons and CTAs tested for correct behaviour
+Manual testing was carried out to ensure the website functions correctly, is easy to use, and is responsive across different devices.
+
+#### Functionality Testing
+
+| Feature             | Expected Outcome                          | Result |
+| ------------------- | ----------------------------------------- | ------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Navigation links    | All links navigate to correct pages       | Pass   | ![Home](/src/assets/images/navlink-test-1.png) ![About](/src/assets/images/navlink-test-2.png) ![Classes](/src/assets/images/navlink-test-3.png) ![Membership](/src/assets/images/navlink-test-4.png) ![Gallery](/src/assets/images/navlink-test-5.png) ![Contact](/src/assets/images/navlink-test-6.png) |
+| CTA buttons         | Buttons direct users to relevant sections | Pass   |
+| Contact form        | Form requires input before submission     | Pass   |
+| Modal (Book a Tour) | Modal opens and closes correctly          | Pass   |
+
+---
+
+#### Usability Testing
+
+- Navigation is clear and consistent across all pages
+- Content is easy to read with proper spacing and hierarchy
+- Users can quickly find key information such as classes and membership
+- Call-to-actions are clearly visible and guide user behaviour
+
+---
+
+#### Responsiveness Testing
+
+The site was tested on multiple screen sizes using Chrome DevTools:
+| Device | Result |
+|------|--------|
+| Mobile | Layout stacks correctly, content readable |
+| Tablet | Grid adjusts appropriately |
+| Desktop | Full layout displayed correctly |
+
+---
+
+#### Browser Testing
+
+| Browser       | Result                        |
+| ------------- | ----------------------------- |
+| Google Chrome | All features work as expected |
+| Firefox       | All features work as expected |
 
 ### Validation
 
