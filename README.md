@@ -232,17 +232,32 @@ Manual testing was carried out to ensure the website functions correctly, is eas
 
 #### Functionality Testing
 
-| Feature                 | Expected Outcome                          | Result | Screenshot                                           |
-| ----------------------- | ----------------------------------------- | ------ | ---------------------------------------------------- |
-| Navigation - Home       | Navigates to Home page                    | Pass   | ![Home](/src/assets/images/navlink-test-1.png)       |
-| Navigation - About      | Navigates to About page                   | Pass   | ![About](/src/assets/images/navlink-test-2.png)      |
-| Navigation - Classes    | Navigates to Classes page                 | Pass   | ![Classes](/src/assets/images/navlink-test-3.png)    |
-| Navigation - Membership | Navigates to Membership page              | Pass   | ![Membership](/src/assets/images/navlink-test-4.png) |
-| Navigation - Gallery    | Navigates to Gallery page                 | Pass   | ![Gallery](/src/assets/images/navlink-test-5.png)    |
-| Navigation - Contact    | Navigates to Contact page                 | Pass   | ![Contact](/src/assets/images/navlink-test-6.png)    |
-| CTA buttons             | Buttons direct users to relevant sections | Pass   |                                                      |
-| Contact form            | Form requires input before submission     | Pass   |                                                      |
-| Modal (Book a Tour)     | Modal opens and closes correctly          | Pass   |                                                      |
+| Feature                          | Expected Outcome                      | Result | Screenshot                                                               |
+| -------------------------------- | ------------------------------------- | ------ | ------------------------------------------------------------------------ |
+| Navigation - Home                | Navigates to Home page                | Pass   | ![Home](/src/assets/images/navlink-test-1.png)                           |
+| Navigation - About               | Navigates to About page               | Pass   | ![About](/src/assets/images/navlink-test-2.png)                          |
+| Navigation - Classes             | Navigates to Classes page             | Pass   | ![Classes](/src/assets/images/navlink-test-3.png)                        |
+| Navigation - Membership          | Navigates to Membership page          | Pass   | ![Membership](/src/assets/images/navlink-test-4.png)                     |
+| Navigation - Gallery             | Navigates to Gallery page             | Pass   | ![Gallery](/src/assets/images/navlink-test-5.png)                        |
+| Navigation - Contact             | Navigates to Contact page             | Pass   | ![Contact](/src/assets/images/navlink-test-6.png)                        |
+| CTA - View Membership            | Directs user to membership page       | Pass   | ![View Membership](/src/assets/images/view_membership_to_chose_plan.png) |
+| CTA - Get Started                | Directs user to choose a plan         | Pass   | ![Get Started](/src/assets/images/get_started_to_choose_plan.png)        |
+| CTA - Learn More                 | Directs user to About page            | Pass   | ![Learn More](/src/assets/images/learn_more_to_about.png)                |
+| CTA - Contact Us                 | Directs user to contact form          | Pass   | ![Contact Us](/src/assets/images/contact_us_to_form.png)                 |
+| Contact form                     | Form requires input before submission | Pass   | ![Form Validation](/src/assets/images/form-test.png)                     |
+| Modal (Book a Tour)              | Modal opens and closes correctly      | Pass   | ![Book a Tour Modal Form ](/src/assets/images/tour-modal-form.png)       |
+| Responsive - Mobile (Home)       | Layout stacks correctly on mobile     | Pass   | ![Mobile Home](/src/assets/images/home_mobile.png)                       |
+| Responsive - Mobile (About)      | Layout stacks correctly on mobile     | Pass   | ![Mobile About](/src/assets/images/about_mobile.png)                     |
+| Responsive - Mobile (Classes)    | Layout stacks correctly on mobile     | Pass   | ![Mobile Classes](/src/assets/images/classes_mobile.png)                 |
+| Responsive - Mobile (Membership) | Layout stacks correctly on mobile     | Pass   | ![Mobile Membership](/src/assets/images/membership_mobile.png)           |
+| Responsive - Mobile (Gallery)    | Layout stacks correctly on mobile     | Pass   | ![Mobile Gallery](/src/assets/images/gallery_mobile.png)                 |
+| Responsive - Mobile (Contact)    | Layout stacks correctly on mobile     | Pass   | ![Mobile Contact](/src/assets/images/contact_mobile.png)                 |
+| Responsive - Tablet (Home)       | Grid adjusts correctly on tablet      | Pass   | ![Tablet Home](/src/assets/images/home_tablet.png)                       |
+| Responsive - Tablet (About)      | Grid adjusts correctly on tablet      | Pass   | ![Tablet About](/src/assets/images/about_tablet.png)                     |
+| Responsive - Tablet (Classes)    | Grid adjusts correctly on tablet      | Pass   | ![Tablet Classes](/src/assets/images/classes_tablet.png)                 |
+| Responsive - Tablet (Membership) | Grid adjusts correctly on tablet      | Pass   | ![Tablet Membership](/src/assets/images/membership_tablet.png)           |
+| Responsive - Tablet (Gallery)    | Grid adjusts correctly on tablet      | Pass   | ![Tablet Gallery](/src/assets/images/gallery_tablet.png)                 |
+| Responsive - Tablet (Contact)    | Grid adjusts correctly on tablet      | Pass   | ![Tablet Contact](/src/assets/images/contact_tablet.png)                 |
 
 ---
 
