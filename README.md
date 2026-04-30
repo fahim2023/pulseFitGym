@@ -1,9 +1,20 @@
 # PulseFit Gym
 
-PulseFit Gym is a responsive, multi-page website designed to promote a modern fitness gym.  
-The site provides information about the gym, available classes, membership plans, facilities, and contact options, while encouraging users to book a tour or make an enquiry.
+PulseFit Gym is a responsive, multi-page website designed to promote a modern fitness gym and help potential members easily explore services, compare membership options, and get in touch.
 
-This project was built as a user-centric frontend milestone project, with a strong focus on usability, accessibility, and responsive design.
+The purpose of this application is to provide users with clear, accessible information about the gym’s facilities, classes, and pricing, while guiding them towards taking action such as booking a tour or making an enquiry.
+
+## Value to Users
+
+This website provides value by:
+
+- Allowing users to quickly understand what the gym offers without confusion
+- Helping users compare membership plans to find one that suits their needs and budget
+- Making it easy to explore available classes and facilities
+- Providing clear calls-to-action that guide users towards contacting the gym or booking a visit
+- Offering a responsive design so users can access the site on mobile, tablet, or desktop
+
+By focusing on clarity, structure, and ease of navigation, the site improves the overall user experience and helps users make informed decisions about joining the gym.
 
 ---
 
