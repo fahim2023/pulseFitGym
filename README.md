@@ -104,6 +104,70 @@ Key design decisions included:
 
 ---
 
+## Style Guide
+
+### Colour Palette
+
+The PulseFit Gym website uses a consistent colour scheme to create a strong and energetic brand identity:
+
+- Primary Colour: #ff6b35 (used for buttons, highlights, and CTAs)
+- Primary Dark: #e5511d (hover states)
+- Secondary Colour: #2c3e50 (text and headings)
+- Light Background: #f8f9fa (section backgrounds)
+- Dark Background: #1a1a1a (navbar and footer)
+
+These colours are defined using CSS variables in the root selector to ensure consistency across the site.
+
+---
+
+### Typography
+
+- Font: Default Bootstrap font stack (system fonts)
+- Headings: Bold, large display sizes for clear hierarchy
+- Body Text: Clean and readable with sufficient spacing
+- Buttons: Uppercase styling with increased letter spacing
+
+---
+
+### Layout & Structure
+
+- Built using Bootstrap 5 grid system
+- Mobile-first responsive design
+- Consistent use of:
+  - Containers for layout alignment
+  - Rows and columns for structure
+  - Cards for reusable UI components
+
+---
+
+### Components
+
+Reusable components are used across the site for consistency:
+
+- Navigation bar (fixed-top)
+- Cards (classes, membership, trainers)
+- CTA sections
+- Footer
+
+---
+
+### Imagery
+
+- Images are used to enhance engagement and showcase facilities
+- All images are optimised in `.webp` format
+- Lazy loading is applied where appropriate
+
+---
+
+### UI Consistency
+
+- Consistent spacing using Bootstrap utilities
+- Uniform button styles across all pages
+- Repeated layout patterns for familiarity
+- Clear visual hierarchy using headings and spacing
+
+---
+
 ## User Stories
 
 ### New Users
@@ -161,6 +225,7 @@ Key design decisions included:
 ### Validation
 
 #### HTML
+
 All HTML pages were tested using the W3C Nu HTML Checker and passed with no errors.
 
 - Home: ![HTML Validation - Home](/src/assets/images/index.png)
@@ -171,6 +236,7 @@ All HTML pages were tested using the W3C Nu HTML Checker and passed with no erro
 - Contact: ![HTML Validation - Contact](/src/assets/images/contact.png)
 
 #### CSS
+
 The CSS stylesheet was tested using the W3C CSS Validator and passed with no errors.
 
 ![CSS Validation](/src/assets/images/custom_css.png)
