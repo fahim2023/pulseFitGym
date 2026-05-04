@@ -94,6 +94,9 @@ The home page features a full-width hero section with a clear call-to-action, fo
 
 ### About Page
 
+![About Desktop](/src/assets/wireframes/aboutdesktop_wireframe.png)
+![About Tablet](/src/assets/wireframes/about-tablet.png)
+![About Mobile](/src/assets/wireframes/about-mobile.png)
 ![About Wireframe](src/assets/wireframes/about.png)
 The about page is structured to tell the gym's story, followed by core values and a trainer showcase to build trust with prospective members.
 
