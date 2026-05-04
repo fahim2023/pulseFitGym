@@ -89,12 +89,37 @@ Wireframes were created before development to plan layout and content hierarchy 
 ### Home Page
 
 ![Home Desktop](/src/assets/wireframes/homepage-desktop.png)
+![Home Wireframe](src/assets/wireframes/home.png)
+The home page features a full-width hero section with a clear call-to-action, followed by featured classes and facilities sections to immediately communicate the gym's value to new visitors.
 
 ### About Page
 
-![About Desktop](/src/assets/wireframes/aboutdesktop_wireframe.png)
-![About Tablet](/src/assets/wireframes/about-tablet.png)
-![About Mobile](/src/assets/wireframes/about-mobile.png)
+![About Wireframe](src/assets/wireframes/about.png)
+The about page is structured to tell the gym's story, followed by core values and a trainer showcase to build trust with prospective members.
+
+### Classes Page
+
+![Classes Wireframe](src/assets/wireframes/classes.png)
+Classes are displayed as cards showing difficulty level, duration and schedule, making it easy for users to find a class that suits them. A weekly timetable is included below.
+
+### Membership Page
+
+![Membership Wireframe](src/assets/wireframes/membership.png)
+Three pricing tiers are displayed side by side with a highlighted popular plan to guide users towards the most common choice.
+
+### Gallery Page
+
+![Gallery Wireframe](src/assets/wireframes/gallery.png)
+A responsive image grid showcases the gym's facilities and classes with category labels to help users identify what they are looking at, at the bottom there is a CTA button that triggers a modal popup form where users can book a tour.
+
+### Contact Page
+
+![Contact Wireframe](src/assets/wireframes/contact.png)
+The contact page combines key contact details, a map, opening hours and an enquiry form in a single view to make it as easy as possible for users to get in touch.
+
+### Book a Tour Modal
+
+The "Book a Tour" modal is triggered from the Gallery page, allowing users who have just viewed the gym's facilities to immediately take action and book a visit. This placement was intentional to capitalise on user interest after browsing the gallery.
 
 Key design decisions included:
 

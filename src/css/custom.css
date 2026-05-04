@@ -467,6 +467,7 @@ footer i.fa-dumbbell {
 figure.gallery-card {
   margin: 0;
 }
+
 /* media query */
 @media (min-width: 768px) {
   header {
