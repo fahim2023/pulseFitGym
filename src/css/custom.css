@@ -479,3 +479,8 @@ figure.gallery-card {
     background-image: url("/src/assets/images/hero-mobile.webp");
   }
 }
+@media (max-width: 576px) {
+  .row {
+    --bs-gutter-x: 1rem;
+  }
+}
