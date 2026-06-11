@@ -468,6 +468,39 @@ figure.gallery-card {
   margin: 0;
 }
 
+/* ======= Audio Player Bar (Pass 1.6 - user-initiated media control) ======= */
+#audio-player-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--brand-dark);
+  border-top: 2px solid var(--brand-primary);
+  z-index: 1050;
+  padding: 0.6rem 1rem;
+}
+
+.audio-inner {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  max-width: 960px;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.audio-inner i {
+  color: var(--brand-primary);
+}
+
+.audio-inner audio {
+  flex: 1;
+  max-width: 400px;
+  height: 32px;
+}
+
 /* media query */
 @media (min-width: 768px) {
   header {

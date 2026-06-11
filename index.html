@@ -416,6 +416,18 @@
       </div>
     </div>
   </footer>
+   <!-- Audio Player (Pass 1.6 - user-initiated media control, no autoplay) -->
+  <div id="audio-player-bar">
+    <div class="audio-inner">
+      <i class="fa-solid fa-music" aria-hidden="true"></i>
+      <span>PulseFit Workout Mix</span>
+      <!-- Browser native controls: play, pause, volume, seek - all user-initiated -->
+      <audio controls preload="none">
+        <source src="/src/assets/loke.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
   <!-- Bootstrap 5 JS Bundle - https://getbootstrap.com -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
