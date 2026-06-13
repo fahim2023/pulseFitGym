@@ -4,6 +4,27 @@ PulseFit Gym is a responsive, multi-page website designed to promote a modern fi
 
 The purpose of this application is to provide users with clear, accessible information about the gym's facilities, classes, and pricing, while guiding them towards taking action such as booking a tour or making an enquiry.
 
+---
+
+## Table of Contents
+
+1. [Value to Users](#value-to-users)
+2. [Live Site](#live-site)
+3. [Project Rationale](#project-rationale)
+4. [User Experience (UX)](#user-experience-ux)
+5. [Style Guide](#style-guide)
+6. [User Stories](#user-stories)
+7. [Features](#features)
+8. [Technologies Used](#technologies-used)
+9. [Development Life Cycle](#development-life-cycle)
+10. [Testing](#testing)
+11. [Performance and Accessibility](#performance-and-accessibility)
+12. [Deployment](#deployment)
+13. [Credits and External Sources](#credits-and-external-sources)
+14. [Acknowledgements](#acknowledgements)
+
+---
+
 ## Value to Users
 
 - Allowing users to quickly understand what the gym offers without confusion
@@ -88,6 +109,7 @@ Features included based on the goals above:
 - Membership pricing cards with feature comparison
 - Image gallery with category labels
 - Contact form and "Book a Tour" modal (user-initiated pop-up — Pass 1.6)
+- Audio player with native browser controls (user-initiated — Pass 1.6)
 - Testimonials carousel on the About page
 - Consistent CTA sections across pages
 
@@ -157,6 +179,14 @@ The "Book a Tour" modal satisfies **Pass 1.6** (design the site to allow the use
 - Only opens when the user explicitly clicks "Book a Tour"
 - Can be closed via the × button, clicking the backdrop, or pressing Escape
 - Contains a validated form with required fields
+
+### Audio Player — Pass 1.6
+
+The audio player on the Home page also satisfies **Pass 1.6**. It uses the native HTML `<audio controls>` element, meaning:
+
+- Audio only plays when the user clicks the play button — no autoplay
+- The user controls play, pause, volume, and seek at all times
+- The player is fixed at the bottom of the Home page and visible throughout scrolling
 
 ---
 
@@ -290,6 +320,7 @@ _Acceptance Criteria:_
 - Membership pricing cards with highlighted popular plan
 - Contact form with client-side validation
 - **Book a Tour modal — user-initiated pop-up (Pass 1.6)**
+- **Audio player — user-initiated music controls (Pass 1.6)**
 - Testimonials carousel on the About page
 - Weekly class timetable on the Classes page
 - Lazy-loaded images in `.webp` format
@@ -346,36 +377,39 @@ The final version was deployed to GitHub Pages from the `main` branch and manual
 
 ### Functionality Testing
 
-| Feature                          | Expected Outcome                          | Result | Screenshot                                                               |
-| -------------------------------- | ----------------------------------------- | ------ | ------------------------------------------------------------------------ |
-| Navigation — Home                | Navigates to Home page                    | Pass   | ![Home](/src/assets/images/navlink-test-1.png)                           |
-| Navigation — About               | Navigates to About page                   | Pass   | ![About](/src/assets/images/navlink-test-2.png)                          |
-| Navigation — Classes             | Navigates to Classes page                 | Pass   | ![Classes](/src/assets/images/navlink-test-3.png)                        |
-| Navigation — Membership          | Navigates to Membership page              | Pass   | ![Membership](/src/assets/images/navlink-test-4.png)                     |
-| Navigation — Gallery             | Navigates to Gallery page                 | Pass   | ![Gallery](/src/assets/images/navlink-test-5.png)                        |
-| Navigation — Contact             | Navigates to Contact page                 | Pass   | ![Contact](/src/assets/images/navlink-test-6.png)                        |
-| CTA — Get Started                | Directs user to membership plans          | Pass   | ![Get Started](/src/assets/images/get_started_to_choose_plan.png)        |
-| CTA — Learn More                 | Directs user to About page                | Pass   | ![Learn More](/src/assets/images/learn_more_to_about.png)                |
-| CTA — View Membership            | Directs user to membership plans          | Pass   | ![View Membership](/src/assets/images/view_membership_to_chose_plan.png) |
-| CTA — Contact Us                 | Directs user to contact form              | Pass   | ![Contact Us](/src/assets/images/contact_us_to_form.png)                 |
-| Contact form validation          | Form requires fields before submission    | Pass   | ![Form Validation](/src/assets/images/form-test.png)                     |
-| Modal — Open                     | Modal opens when "Book a Tour" is clicked | Pass   | ![Modal Open](/src/assets/images/tour-modal-form.png)                    |
-| Modal — Close (× button)         | Modal closes via the close button         | Pass   | ![Modal Close](/src/assets/images/tour-modal-form.png)                   |
-| Modal — Close (Escape key)       | Modal closes when Escape is pressed       | Pass   | ![Modal Close](/src/assets/images/tour-modal-form.png)                   |
-| Modal — Close (backdrop)         | Modal closes when clicking outside it     | Pass   | ![Modal Close](/src/assets/images/tour-modal-form.png)                   |
-| Modal form validation            | All fields required before submission     | Pass   | ![Modal Form](/src/assets/images/tour-modal-form.png)                    |
-| Responsive — Mobile (Home)       | Layout stacks correctly on mobile         | Pass   | ![Mobile Home](/src/assets/images/home_mobile.png)                       |
-| Responsive — Mobile (About)      | Layout stacks correctly on mobile         | Pass   | ![Mobile About](/src/assets/images/about_mobile.png)                     |
-| Responsive — Mobile (Classes)    | Layout stacks correctly on mobile         | Pass   | ![Mobile Classes](/src/assets/images/classes_mobile.png)                 |
-| Responsive — Mobile (Membership) | Layout stacks correctly on mobile         | Pass   | ![Mobile Membership](/src/assets/images/membership_mobile.png)           |
-| Responsive — Mobile (Gallery)    | Layout stacks correctly on mobile         | Pass   | ![Mobile Gallery](/src/assets/images/gallery_mobile.png)                 |
-| Responsive — Mobile (Contact)    | Layout stacks correctly on mobile         | Pass   | ![Mobile Contact](/src/assets/images/contact_mobile.png)                 |
-| Responsive — Tablet (Home)       | Grid adjusts correctly on tablet          | Pass   | ![Tablet Home](/src/assets/images/home_tablet.png)                       |
-| Responsive — Tablet (About)      | Grid adjusts correctly on tablet          | Pass   | ![Tablet About](/src/assets/images/about_tablet.png)                     |
-| Responsive — Tablet (Classes)    | Grid adjusts correctly on tablet          | Pass   | ![Tablet Classes](/src/assets/images/classes_tablet.png)                 |
-| Responsive — Tablet (Membership) | Grid adjusts correctly on tablet          | Pass   | ![Tablet Membership](/src/assets/images/membership_tablet.png)           |
-| Responsive — Tablet (Gallery)    | Grid adjusts correctly on tablet          | Pass   | ![Tablet Gallery](/src/assets/images/gallery_tablet.png)                 |
-| Responsive — Tablet (Contact)    | Grid adjusts correctly on tablet          | Pass   | ![Tablet Contact](/src/assets/images/contact_tablet.png)                 |
+| Feature                             | Expected Outcome                                   | Result | Screenshot                                                               |
+| ----------------------------------- | -------------------------------------------------- | ------ | ------------------------------------------------------------------------ |
+| Navigation — Home                   | Navigates to Home page                             | Pass   | ![Home](/src/assets/images/navlink-test-1.png)                           |
+| Navigation — About                  | Navigates to About page                            | Pass   | ![About](/src/assets/images/navlink-test-2.png)                          |
+| Navigation — Classes                | Navigates to Classes page                          | Pass   | ![Classes](/src/assets/images/navlink-test-3.png)                        |
+| Navigation — Membership             | Navigates to Membership page                       | Pass   | ![Membership](/src/assets/images/navlink-test-4.png)                     |
+| Navigation — Gallery                | Navigates to Gallery page                          | Pass   | ![Gallery](/src/assets/images/navlink-test-5.png)                        |
+| Navigation — Contact                | Navigates to Contact page                          | Pass   | ![Contact](/src/assets/images/navlink-test-6.png)                        |
+| CTA — Get Started                   | Directs user to membership plans                   | Pass   | ![Get Started](/src/assets/images/get_started_to_choose_plan.png)        |
+| CTA — Learn More                    | Directs user to About page                         | Pass   | ![Learn More](/src/assets/images/learn_more_to_about.png)                |
+| CTA — View Membership               | Directs user to membership plans                   | Pass   | ![View Membership](/src/assets/images/view_membership_to_chose_plan.png) |
+| CTA — Contact Us                    | Directs user to contact form                       | Pass   | ![Contact Us](/src/assets/images/contact_us_to_form.png)                 |
+| Contact form validation             | Form requires fields before submission             | Pass   | ![Form Validation](/src/assets/images/form-test.png)                     |
+| Modal — Open                        | Modal opens when "Book a Tour" is clicked          | Pass   | ![Modal Open](/src/assets/images/tour-modal-form.png)                    |
+| Modal — Close (× button)            | Modal closes via the close button                  | Pass   | ![Modal Close](/src/assets/images/tour-modal-form.png)                   |
+| Modal — Close (Escape key)          | Modal closes when Escape is pressed                | Pass   | ![Modal Close](/src/assets/images/tour-modal-form.png)                   |
+| Modal — Close (backdrop)            | Modal closes when clicking outside it              | Pass   | ![Modal Close](/src/assets/images/tour-modal-form.png)                   |
+| Modal form validation               | All fields required before submission              | Pass   | ![Modal Form](/src/assets/images/tour-modal-form.png)                    |
+| Audio player — visible on page load | Player bar displays at bottom of Home page         | Pass   | ![Audio Page Load](/src/assets/images/audio_page_load.png)               |
+| Audio player — play / pause         | Audio plays and pauses when user clicks the button | Pass   | ![Audio Play Pause](/src/assets/images/audio_play_pause.png)             |
+| Audio player — volume               | Volume adjusts when slider is moved                | Pass   | ![Audio Volume](/src/assets/images/audio_volume.png)                     |
+| Responsive — Mobile (Home)          | Layout stacks correctly on mobile                  | Pass   | ![Mobile Home](/src/assets/images/home_mobile.png)                       |
+| Responsive — Mobile (About)         | Layout stacks correctly on mobile                  | Pass   | ![Mobile About](/src/assets/images/about_mobile.png)                     |
+| Responsive — Mobile (Classes)       | Layout stacks correctly on mobile                  | Pass   | ![Mobile Classes](/src/assets/images/classes_mobile.png)                 |
+| Responsive — Mobile (Membership)    | Layout stacks correctly on mobile                  | Pass   | ![Mobile Membership](/src/assets/images/membership_mobile.png)           |
+| Responsive — Mobile (Gallery)       | Layout stacks correctly on mobile                  | Pass   | ![Mobile Gallery](/src/assets/images/gallery_mobile.png)                 |
+| Responsive — Mobile (Contact)       | Layout stacks correctly on mobile                  | Pass   | ![Mobile Contact](/src/assets/images/contact_mobile.png)                 |
+| Responsive — Tablet (Home)          | Grid adjusts correctly on tablet                   | Pass   | ![Tablet Home](/src/assets/images/home_tablet.png)                       |
+| Responsive — Tablet (About)         | Grid adjusts correctly on tablet                   | Pass   | ![Tablet About](/src/assets/images/about_tablet.png)                     |
+| Responsive — Tablet (Classes)       | Grid adjusts correctly on tablet                   | Pass   | ![Tablet Classes](/src/assets/images/classes_tablet.png)                 |
+| Responsive — Tablet (Membership)    | Grid adjusts correctly on tablet                   | Pass   | ![Tablet Membership](/src/assets/images/membership_tablet.png)           |
+| Responsive — Tablet (Gallery)       | Grid adjusts correctly on tablet                   | Pass   | ![Tablet Gallery](/src/assets/images/gallery_tablet.png)                 |
+| Responsive — Tablet (Contact)       | Grid adjusts correctly on tablet                   | Pass   | ![Tablet Contact](/src/assets/images/contact_tablet.png)                 |
 
 ---
 
@@ -416,6 +450,7 @@ The final version was deployed to GitHub Pages from the `main` branch and manual
 | Gallery images displayed at different heights, making the grid uneven        | Visual inspection during development          | Applied `height: 240px` and `object-fit: cover` to `.gallery-img` in `custom.css`                                                |
 | HIIT Cardio card on Home page showed "Sun :00 AM" with the hour missing      | Code review during testing                    | Corrected to "Sun 8:00 AM" in `index.html`                                                                                       |
 | About-preview cards showed unwanted box-shadow from the global `.card` style | Visual inspection                             | Added targeted CSS overrides for cards in those sections (`border: none; background-color: var(--brand-light)`)                  |
+| Audio player bar overlapping the footer on the Home page                     | Visual inspection during development          | Scoped `padding-bottom` to `body.has-audio-player` class on `index.html` only, preventing impact on other pages                  |
 
 ### Known Unfixed Bugs
 
@@ -489,10 +524,11 @@ Design and development: **Fahim Adam**
 
 ### External Libraries and Frameworks
 
-| Source       | Link                                         | Use                                        |
-| ------------ | -------------------------------------------- | ------------------------------------------ |
-| Bootstrap 5  | [getbootstrap.com](https://getbootstrap.com) | CSS framework, grid system, and components |
-| Font Awesome | [fontawesome.com](https://fontawesome.com)   | Icons used throughout the site             |
+| Source       | Link                                         | Use                                                             |
+| ------------ | -------------------------------------------- | --------------------------------------------------------------- |
+| Bootstrap 5  | [getbootstrap.com](https://getbootstrap.com) | CSS framework, grid system, and components                      |
+| Font Awesome | [fontawesome.com](https://fontawesome.com)   | Icons used throughout the site                                  |
+| Suno         | [suno.com](https://suno.com)                 | AI-generated workout audio track used in home page audio player |
 
 ---
 
