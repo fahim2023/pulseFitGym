@@ -63,6 +63,11 @@ footer {
   background-color: var(--brand-dark);
 }
 
+/* Push footer up on Home page only to account for fixed audio bar */
+body.has-audio-player {
+  padding-bottom: 48px;
+}
+
 /* Brand stays white always */
 .navbar-brand,
 .navbar-brand:hover,
